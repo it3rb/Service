@@ -1,0 +1,8 @@
+Większe bloki-są to bloki w których będą wyświetlane ogłoszenia/posty
+
+Bloki mniejsze-są to bloki reklam
+
+Manu znajdujące się po prawej zawiera:
+-zmiana motywu 
+-logowanie
+-napisanie postu
