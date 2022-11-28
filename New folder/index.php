@@ -35,16 +35,13 @@
             <div class="item">Sport</div>
         </nav>
         <main>
-        <div class="box" style="width: 31em; height: 520px; display:flex; justify-content:center; padding-left:23%">
-        <form method="post" action="posty.php">
-        <div class="field"><label>Nazwa: <br><input name="nazwa"></label></div><br>
-        <div class="field"><label>Treść: <br> <textarea name="tresc"></textarea></label></div><br>
-        <div class="field"><label>Imię: <br><input name="imie"></label></div><br>
-        <div class="field"><label>Nazwisko: <br> <input name="nazwisko"></label></div><br>
-        <div class="field"><input type="submit">
-</div>
-    </form>
-    </div>
+            <div class="advert">
+                <img src="advert.png" alt="advert"/>
+            </div>
+            <?php include 'posty2.php'?>
+            <!-- <div class="advert">
+                <img src="advert.png" alt="advert"/>
+            </div> -->
         </main>
         <nav class="icons">
             <div class="item"><div class="icon"><img src="log.svg" width="10%"></div><div class="label">User</div></div>
@@ -56,4 +53,3 @@
     </div>
 </body>
 </html>
-

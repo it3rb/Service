@@ -11,5 +11,5 @@ $insert = "INSERT INTO post(nazwa, tresc, data_dodania, uzytkownik_imie, uzytkow
 
 $b=$a->query($insert);
 $a->close();
-
+header("Location:index.php");
 ?>

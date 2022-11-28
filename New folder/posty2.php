@@ -4,7 +4,7 @@ if ($b=$a->query("SELECT nazwa, tresc, data_dodania, uzytkownik_imie, uzytkownik
 {
     while($c=$b->fetch_assoc())
     {
-        echo '<div id="post"><p id="head"><b>'.$c['nazwa'].'</b> - '.$c['data_dodania'].'</p> '.$c['tresc'].' <br><br>'.$c['uzytkownik_imie'].' '.$c['uzytkownik_nazwisko'].'<br></div>';
+        echo '<div class="post"><div class="header"><p id="head"><b>'.$c['nazwa'].'</b> - '.$c['data_dodania'].'</p></div> <div class="content">'.$c['tresc'].' </div><br><br><div class="surname">'.$c['uzytkownik_imie'].' '.$c['uzytkownik_nazwisko'].'</div></div><br>';
     }
     $b->close();
 }
