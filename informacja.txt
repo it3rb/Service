@@ -1,0 +1,11 @@
+Opis plików:
+
+index.php - główna strona
+login.php - skrypt odpowiadający za logowanie
+posty.php - skrypt odpowiadający za dodawanie postów
+posty2.php - skrypt odpowiadający za wyświetlanie postów
+register.php - skrypt odpowiadający za rejestrację
+style.css - style CSS do index.php
+script.js - skrypty w JavaScript
+novo2-c.svg - logo
+advert - przykładowa reklama
